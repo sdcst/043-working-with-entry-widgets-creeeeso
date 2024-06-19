@@ -24,7 +24,7 @@ l1 = tk.Label(win, text="Enter side a: ")
 e1 = tk.Entry(win, width=15)
 l2 = tk.Label(win, text="Enter side b:")
 e2 = tk.Entry(win, width=15)
-l3 = tk.Label(win, text="N/A")
+l3 = tk.Label(win, text="hypotenuse")
 e3 = tk.Entry(win, width=15)
 
 b1.bind("<Button-1>", clickFunction)
